@@ -1,0 +1,57 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.table {
+  padding-bottom: 5px;
+  position: relative;
+  text-align: left;
+}
+
+.content {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 20px;
+}
+
+.content li {
+  padding: 7px 0 7px 40px;
+  font-size: 18px;
+  color: rgb(35, 12, 245);
+  position: relative;
+  font-weight: 500;
+}
+
+.content li::before {
+  content: "\f00c";
+  height: 24px;
+  width: 24px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  line-height: 20px;
+  border-radius: 50%;
+  border: 2px solid #fb6ee5;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+}
+
+.signup {
+  background: linear-gradient(to bottom right, #fa6fe6, #b4fd2c);
+  padding: 10px 40px;
+  font-size: 20px;
+  color: black;
+  border-radius: 30px;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.center {
+  margin-left: 50px;
+  margin-top: 80px;
+}
